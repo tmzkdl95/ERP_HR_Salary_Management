@@ -32,6 +32,7 @@ public class loginDAOImpl implements loginDAO{
 		//insert에는 return값이 없다.
 		try{
 			sqlsession.insert(NameSpace+".insert_memberJoin",login);
+			sqlsession.insert(NameSpace+".insert_mamberJoin_authority",login);
 		}catch(Exception e){
 			e.printStackTrace();
 		}

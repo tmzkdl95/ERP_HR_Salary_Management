@@ -38,6 +38,11 @@
     	<property name="mapperInterface" value="com.mycompany.mapper.mapper_interface.testPageMapper" />
     	<property name="sqlSessionFactory" ref="sqlSessionFactory" />
 	</bean>
+	
+	<bean id="homePageMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+    	<property name="mapperInterface" value="com.mycompany.mapper.mapper_interface.homePageMapper" />
+    	<property name="sqlSessionFactory" ref="sqlSessionFactory" />
+	</bean>
     
     
 		
