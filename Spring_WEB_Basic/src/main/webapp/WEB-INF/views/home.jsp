@@ -13,14 +13,14 @@
 	<!-- DataTables Example -->
 	<div class="card mb-3">
 		<div class="card-header">
-			<i class="fas fa-table"></i> 공지 게시판
+			<i class="fas fa-table"></i> 공지 사항
 		</div>
 	</div>
 	
 	<div class="card-body">
 		<div class="table-responsive">
 			<table class="table table-bordered" width="100%" cellspacing="0">
-				<thead>
+				<thead align="center">
 						<tr>
 							<th>번호</th>
 							<th>제목</th>
@@ -32,10 +32,10 @@
 				<tbody>
 					<c:forEach items = "${homeboard}" var="homeboard">
 						<tr>
-							<td> ${homeboard.id} </td>
-							<td><a href="#"> ${homeboard.title} </a></td>
-							<td> ${homeboard.user_id} </td>
-							<td> ${homeboard.write_date} </td>
+							<td width="10%" align="center"> ${homeboard.id} </td>
+							<td width="50%" align="left"><a href="#"> ${homeboard.title} </a></td>
+							<td width="10%" align="center"> ${homeboard.user_id} </td>
+							<td width="30%" align="center"> ${homeboard.write_date} </td>
 						</tr>
 					</c:forEach>
 				</tbody>
