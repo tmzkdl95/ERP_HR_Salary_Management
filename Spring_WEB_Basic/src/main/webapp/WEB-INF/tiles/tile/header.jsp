@@ -7,7 +7,7 @@
 
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-      <a class="navbar-brand mr-1" href="/myapp">Spring WEB Project</a>
+      <a class="navbar-brand mr-1" href="/myapp">인사/급여 관리 시스템</a>
 
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
