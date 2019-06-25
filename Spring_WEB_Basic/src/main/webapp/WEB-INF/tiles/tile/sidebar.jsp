@@ -2,7 +2,7 @@
 <!-- Sidebar -->
       <ul class="sidebar navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">
+          <a class="nav-link" href="home_main">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>공지 사항</span>
           </a>
